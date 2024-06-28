@@ -8,7 +8,12 @@ public class MaxofThreenumbr {
 //		Input the 2nd number: 78
 //		Input the 3rd number: 87
 		int a=25,b=78,c=87;
-		if ()
+		if (a>b&&a>c)
+			System.out.println("A is big");
+		else if(b>c)
+			System.out.println("b is Big");
+		else
+			System.out.println("C is big");
 
 	}
 
