@@ -6,7 +6,7 @@ public class Banking {
 		int AccountNumber=101189;
 		String AccountName="Harish";
 		double Balance=10000;
-		String IFSC="VIP005";
+		String IFSC="VVIP005";
 		int amount=500;
 		String Salary="enquary";
 //		System.out.println(AccountName);
@@ -15,12 +15,12 @@ public class Banking {
 		
 		switch (Salary) {
 		case "withdraw":
-//			if () {
+			if (Balance>=amount) {
 				Balance-=amount;
-				System.out.println("withraw :"+ amount);
-//			else
-//			("not surficent balance");
-			    break;
+				System.out.println("withraw :"+ amount);}
+			else
+				System.out.println("not surficent balance");
+			break;
 		case "deposit":
 		    Balance+=amount;
 			System.out.println("amount created "+amount);
@@ -29,14 +29,14 @@ public class Banking {
 			System.out.println("Account Holder name : "+AccountName);
 			System.out.println("AccountNumber : "+ AccountNumber);
 			System.out.println("IFSC Code : "+IFSC);
-			break;
+			
+		
 		}
 			
-//		System.out.println("Available balance : "+Balance);
-
-//		else
-//			System.out.println("enter valid bank details");
 		System.out.println("Available balance : "+Balance);
+
 	}
-	
-	}}
+		else
+			System.out.println("enter valid bank details");
+	}
+}
