@@ -1,7 +1,6 @@
 package Practice;
 
 public class Banking {
-
 	public static void main(String[] args) {
 		int AccountNumber=101189;
 		String AccountName="Harish";

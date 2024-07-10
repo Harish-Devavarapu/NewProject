@@ -6,7 +6,7 @@ public class First {
 		    { 
 		        First t1 = new First(); 
 		        First t2 = new First(); 
-//		        t1.x = 20; 
+		        t1.x = 20; 
 		        System.out.println(t1.x + " "); 
 		        System.out.println(t2.x); 
 		    } 
